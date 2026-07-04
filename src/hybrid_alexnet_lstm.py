@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Paths
-data_root = r"C:\sem 2 thejan\Paper\Thejan seizure\seizure data"
-summary_root = r"C:\sem 2 thejan\Paper\Thejan seizure\SUMMARY SEIZURE FOLDER"
+data_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data")
+summary_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "summaries")
 
 # Constants
 max_channels = 23

@@ -3,8 +3,8 @@ import mne
 import matplotlib.pyplot as plt
 
 # ----------- CONFIGURATION -----------
-data_root = r"C:\sem 2 thejan\Paper\Thejan seizure\seizure data\chb01"
-summary_file = r"C:\sem 2 thejan\Paper\Thejan seizure\all patient summary\chb01-summary.txt"
+data_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data", "chb01")
+summary_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "summaries", "chb01-summary.txt")
 fig_dir = "figures"
 save_fig = False
 pre_ictal_duration = 30   # seconds before seizure start

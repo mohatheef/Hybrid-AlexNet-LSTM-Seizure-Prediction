@@ -14,8 +14,8 @@ from imblearn.over_sampling import SMOTE
 import seaborn as sns
 
 # **Paths to Data**
-data_root = r"C:\sem 2 thejan\Paper\chb-mit-scalp-eeg-database-1.0.0"
-summary_root = r"C:\sem 2 thejan\Paper\Thejan seizure\all patient summary"
+data_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data")
+summary_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "summaries")
 
 # **Constants**
 max_channels = 23

@@ -3,8 +3,8 @@ import mne
 import pandas as pd
 
 # Define input and output directories
-edf_folder = r"C:\sem 2 thejan\Paper\edf"
-csv_output_folder = r"C:\sem 2 thejan\Paper\csv"
+edf_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data")
+csv_output_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "csv_output")
 error_log_file = os.path.join(csv_output_folder, "error_log.txt")  # Log for failed files
 
 # Ensure the output folder exists

@@ -11,8 +11,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report, matthews_corrcoef
 
 # Define paths
-data_root = r"C:\sem 2 thejan\Paper\edf\seizure file"
-summary_file = os.path.join(data_root, "all_summaries.txt")
+data_root = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data")
+summary_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "summaries", "all_summaries.txt")
 
 # Butterworth Bandpass Filter
 def butter_bandpass_filter(data, lowcut=0.5, highcut=50.0, fs=256, order=4):

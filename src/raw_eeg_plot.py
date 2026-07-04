@@ -39,5 +39,5 @@ def process_all_edf_files(root_folder, start=0, duration=10, save_fig=False):
                 plot_eeg_from_edf(edf_path, start=start, duration=duration, save_fig=save_fig)
 
 # Example usage
-root_data_folder = r"C:\sem 2 thejan\Paper\Thejan seizure\seizure data"
+root_data_folder = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data")
 process_all_edf_files(root_data_folder, start=0, duration=10, save_fig=False)

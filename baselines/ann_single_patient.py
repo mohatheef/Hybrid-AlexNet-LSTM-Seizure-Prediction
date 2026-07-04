@@ -8,7 +8,7 @@ from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 
 # Define paths
-data_path = r"C:\sem 2 thejan\Paper\edf\chb01"
+data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "seizure_data", "chb01")
 files = [f for f in os.listdir(data_path) if f.endswith('.edf')]
 
 # Seizure timings (manually extracted from your data)
