@@ -76,12 +76,9 @@ The performance of the proposed AlexNet-LSTM model is evaluated against CNN, LST
 ├── baselines/                         # Baseline comparison models
 │   ├── ann_single_patient.py          # Single patient ANN implementation
 │   └── ann_multi_patient.py           # Multi-patient ANN implementation
-├── notebooks/                         # Jupyter Notebooks
-│   ├── seizure_prediction.ipynb       # Clean interactive notebook version
-│   └── seizure_prediction_full.ipynb  # Comprehensive notebook (execution outputs cleared)
-└── breast_cancer_archive/             # Unrelated project archive (TCGA BRCA RNA-seq)
-    ├── labels.py
-    └── model_arch.py
+└── notebooks/                         # Jupyter Notebooks
+    ├── seizure_prediction.ipynb       # Clean interactive notebook version
+    └── seizure_prediction_full.ipynb  # Comprehensive notebook (execution outputs cleared)
 ```
 
 ---
