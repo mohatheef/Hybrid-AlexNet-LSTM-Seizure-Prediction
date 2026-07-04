@@ -1,0 +1,25 @@
+# Datasets and data files
+*.edf
+*.edf.gz
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/IDE config
+.DS_Store
+.idea/
+.vscode/
