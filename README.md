@@ -1,5 +1,11 @@
 # Hybrid AlexNet-LSTM Framework for Early Preictal Seizure Prediction in Pediatric EEG
 
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction?color=blue)](LICENSE)
+[![CI Status](https://github.com/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction/actions/workflows/python-app.yml/badge.svg)](https://github.com/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction/actions)
+[![Stars](https://img.shields.io/github/stars/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction)](https://github.com/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction/stargazers)
+[![Forks](https://img.shields.io/github/forks/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction)](https://github.com/mohatheef/Hybrid-AlexNet-LSTM-Seizure-Prediction/network/members)
+
 This repository contains the official implementation of the paper:
 **"Hybrid AlexNet-LSTM Framework for Early Preictal Seizure Prediction in Pediatric EEG"**
 *Published in NQComp 2026 (International Conference on Next-Gen Quantum and Advanced Computing: Algorithms, Security, and Beyond)*
